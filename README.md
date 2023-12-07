@@ -30,13 +30,32 @@ The three FCNs were trained and evaluated on the respective input datasets, achi
     - It outputs three types of data: 
         1)Segmented point cloud overlaid on image
         2)Image with 6 channels i.e. X ,Y , Z and RGB
-        3)Image with 4 channels.
-
-      
+        3)Image with 4 channels.      
 
 2. **modefied_vgg_model.ipynb`**: Experimental model (doesn't work).
     - This file includes an old VGG architecture and a new base CNN architecture used in the project.
     - This is an attempt to input 6 channel image in the vgg network
+  
+3. **Final_Road_detection_XYZRGB.ipynb**: Model Training and definition
+   - This file contains the code that extracts the important features from RGBXYZ.npy files for each image and uses these data along with ground thruth data to tran a FCN for the application of road segmentation
+   - It outputs a mask or a overlay on the RGB image of camera view as per the users choice
+   - Modify the path files according to the need.
+   - Download the data from Kitti road dataset for left camera
+   - Comment out/in according to output needed
+     
+4. **Road_detection_final_fusion.ipynb**: Model Training and definition
+   - This file contains the code imports each image with LIDAR overlay and uses these data along with ground thruth data to tran a FCN for the application of road segmentation
+   - It outputs a mask or a overlay on the RGB image of camera view as per the users choice
+   - Modify the path files according to the need.
+   - Download the data from Kitti road dataset for left camera
+   - Comment out/in according to output needed
+
+5. **Road_detection_final_RGB.ipynb**: Model Training and definition
+   - This file contains the code that each image and uses these data along with ground thruth data to tran a FCN for the application of road segmentation
+   - It outputs a mask or a overlay on the RGB image of camera view as per the users choice
+   - Modify the path files according to the need.
+   - Download the data from Kitti road dataset for left camera
+   - Comment out/in according to output needed 
 
 ## Data Representation
 
