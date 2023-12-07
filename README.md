@@ -66,6 +66,9 @@ The three FCNs were trained and evaluated on the respective input datasets, achi
 
 - **Intersection over Union (IoU)**: A measure of the overlap between the predicted road area and the ground truth.
 
+## Trained Models
+- Models trained for each dataset can be accesed through this google drive - https://drive.google.com/drive/folders/1_jm2f9_DN8JvAm--YTw8d9SXjFxQViBk?usp=sharing
+
 ## Results
 
 Insert any additional details about the results, graphs, or visualizations in this section.
